@@ -1,6 +1,6 @@
 import Stack from "./Stack";
 
-// Create a new that holds string
+// Create a new stack that holds string
 let stack = new Stack<string>();
 
 // Insert new item into the stack

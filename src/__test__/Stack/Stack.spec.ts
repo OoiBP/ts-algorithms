@@ -32,7 +32,7 @@ describe("Stack", () => {
     expect(() => stack.peek()).toThrowError("Empty stack");
   });
 
-  test(".peek() can ppek the last item in stack", () => {
+  test(".peek() can peek the last item in stack", () => {
     const stack = new Stack<string>();
     stack.push("First");
     expect(stack.peek()).toBe("First");
