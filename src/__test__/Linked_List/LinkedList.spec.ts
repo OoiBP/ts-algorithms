@@ -11,7 +11,7 @@ describe("Linked List", () => {
     expect(list.length()).toBe(0);
   });
 
-  test("can insert a new node into list with push", () => {
+  test(".push() can insert a new node into list", () => {
     const list = new LinkedList<number>();
     list.push(10);
     expect(list.length()).toBe(1);
